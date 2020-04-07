@@ -1,10 +1,9 @@
 # --- General options --- #
 
 # Name of website
-title: My website
-
+title: Yaniv Paz - the site
 # Short description of your site
-description: A virtual proof that I'm awesome
+description: Cloud ,devops , infra tools and drones 
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
@@ -28,7 +27,7 @@ navbar-links:
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/avatar-icon.png"
+avatar: "/img/yaniv-face.jpg"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
