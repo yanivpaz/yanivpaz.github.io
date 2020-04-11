@@ -1,3 +1,14 @@
+---
+layout: post
+title: Google essentials 
+subtitle: My first Google experience
+gh-repo: daattali/beautiful-jekyll
+gh-badge: [star, fork, follow]
+tags: [test]
+comments: true
+---
+
+
 # Google Cloud Essentials
 ## Login 
 ```
