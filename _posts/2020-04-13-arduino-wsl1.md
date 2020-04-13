@@ -9,11 +9,10 @@ comments: true
 ---
 
 # Using pyfirmata in  WSL
-There alot of information in the web how to run your first arduino projects,  
-but most of them cover Arduino IDE or native windows (i.e COM serial commection name).  
+There is alot of information in the web how to run your first arduino projects.  
+Most of information covers Arduino IDE or native pyhon on Windows (i.e COM serial commection name).  
 
-The link below provides checklist for running those projects in WSL .  
-As example , I used [pyfirmata](https://pypi.org/project/pyFirmata2/) to turn on light.  
- 
+The link below provides checklist for running your first Arduino project in WSL1 : 
 https://github.com/yanivpaz/code-examples/tree/master/python-arduino
+
 
