@@ -15,8 +15,8 @@ I am planning to blog here all combination of geeks gadgets on my favourites pla
 * Drones
 
 ## My favourites platform
-* K8S [CKAD here I come]
-* Linux and WSL
-* GKE / AWS 
+* K8S [CKAD preparation](https://yanivpaz.com/2020-04-13-ckad/)
+* Linux , WSL
+* GKE , AWS 
 
 
