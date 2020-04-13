@@ -11,7 +11,7 @@ comments: true
 # Using pyfirmata in  WSL
 There is alot of information in the web how to run your first arduino projects.  
 Most of information covers Arduino IDE or native python on Windows  
-(For exmple - using COM as serial name).  
+(For exmple - using COM as serial name instead of /dev/ttyS3 ).  
 
 The link below provides checklist for running your first Arduino project in WSL1 : 
 https://github.com/yanivpaz/code-examples/tree/master/python-arduino
