@@ -18,10 +18,11 @@ description: Cloud ,devops , infra tools and drones
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
+#  TODO
+#  My-environment: "myenv"
 navbar-links:
   Home: "http://yanivpaz.com"
   About Me: "aboutme"
-  My-environment: "myenv"
   Links:
     - FPV Drones : "https://github.com/yanivpaz/drones"
   Resources:
