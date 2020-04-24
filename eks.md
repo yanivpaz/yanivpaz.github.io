@@ -1,11 +1,5 @@
 ---
-redirect:   https://github.com/yanivpaz/awesome-eks/blob/master/README.md
-layout:     redirect
+permalink: /eks
+redirect_to:
+  - https://github.com/yanivpaz/awesome-eks/blob/master/README.md
 ---
-
-layout: page
-title: EKS
-subtitle: My EKS bookmarks 
-
-
-[click here](https://github.com/yanivpaz/awesome-eks/blob/master/README.md)
