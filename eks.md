@@ -1,7 +1,7 @@
 ---
 layout: page
 title: EKS
-subtitle: My EKS bookmarks [EKS links](https://github.com/yanivpaz/awesome-eks/blob/master/README.md)
+subtitle: My EKS bookmarks 
 ---
 
-[EKS links](https://github.com/yanivpaz/awesome-eks/blob/master/README.md)
+[#click here](https://github.com/yanivpaz/awesome-eks/blob/master/README.md)
