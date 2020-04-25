@@ -32,7 +32,7 @@ runcmd:
  - sudo snap install microk8s --classic 
  - sudo microk8s enable helm3
  - sudo microk8s helm3 repo add stable https://kubernetes-charts.storage.googleapis.com
- - sudo microk8s helm3 install my-jenkins stable/jenkins
+ - sudo microk8s helm3 install my-jenkins --set persistence.enabled=false stable/jenkins
 ```
 
 ## Spin up the vm 
@@ -50,6 +50,7 @@ multipass.exe shell ubuntu2004
 ```
 sudo microk8s kubectl get pods --all-namespaces
 ```
+follow the online screen
 
 ## Troubleshooting 
 check the logs 
