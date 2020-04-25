@@ -1,3 +1,10 @@
+---
+layout: post
+title: Goodbye vagrant 
+subtitle: hello multipass
+comments: true
+---
+
 # Multi pass
 Multipass is simple provisoning tool from Canonical .   
 The tool is 
