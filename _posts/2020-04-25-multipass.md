@@ -56,7 +56,12 @@ sudo microk8s kubectl get pods --all-namespaces
 ```
 follow the online screen
 
-## Login to the 
+## Login to the Jenkins UI
+```
+multipass.exe info ubuntu2004
+```
+
+Login to the <IPv4 address>:31000 with admin/admin 
 
 ## Troubleshooting 
 check the logs 
