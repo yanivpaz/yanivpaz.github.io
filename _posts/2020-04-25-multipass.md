@@ -6,13 +6,12 @@ comments: true
 ---
 
 # Multi pass   
-In the search of best K8s experinece on Windows there are several options :
+There are many ways to install local K8s cluster on local laptop , including :
 * [Docker desktop with K8s](https://www.docker.com/blog/docker-windows-desktop-now-kubernetes/)
-* [WLS2](https://ubuntu.com/wsl) with [K3s](https://k3s.io/)
+* [WSL2](https://ubuntu.com/wsl) with [K3S](https://k3s.io/) or [Kind](https://kubernetes.io/docs/setup/learning-environment/kind/)
 * [Redhat CRC](https://developers.redhat.com/blog/2019/09/05/red-hat-openshift-4-on-your-laptop-introducing-red-hat-codeready-containers/)
 
-In this blog I will review another option with the latest Ubuntu 20.04 with microck8s.
-I will demonstrate quick Jenkins installation . 
+In this blog I will review another option with the latest Ubuntu 20.04 using multipass with microck8s.
 
 Multipass is simple provisoning tool from Canonical .   
 The Multipasstool is:
@@ -20,12 +19,11 @@ The Multipasstool is:
 * leverage cloud init to setup the vm during startup , as standard cloud instances. 
 * provide similar capabilities as WSL2 on Windows 
 
+I will demonstrate quick Jenkins installation . 
 Disclaimer : the commands I am using are for demo only.
 
 ## Install multipss 
-The tool is available for Mac, Windows and Linux. 
-
-https://multipass.run/
+The tool is available for Mac, Windows and Linux in [multipass site](https://multipass.run/)
 
 ## Create cloud-config.yaml file
 ```
