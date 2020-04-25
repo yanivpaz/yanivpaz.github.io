@@ -42,3 +42,10 @@ multipass.exe launch 20.04 -n ubuntu2004 --cloud-init cloud-config.yaml -v
 ```
 
 ## ssh to the instance 
+```
+multipass.exe launch ubuntu2004
+```
+check the logs 
+```
+ tail -f /var/log/cloud-init-output.log
+```
