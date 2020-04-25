@@ -31,8 +31,8 @@ https://multipass.run/
 runcmd:
  - sudo snap install microk8s --classic 
  - sudo microk8s enable helm3
+ - sudo microk8s helm3 repo add stable https://kubernetes-charts.storage.googleapis.com
  - sudo microk8s helm3 install my-jenkins stable/jenkins
- - sudo microk8s kubectl get pods --all-namespaces
 ```
 
 ## Spin up the vm 
@@ -41,10 +41,17 @@ open cmd window and run the following command
 multipass.exe launch 20.04 -n ubuntu2004 --cloud-init cloud-config.yaml -v
 ```
 
-## ssh to the instance 
+## Login to the instance 
 ```
-multipass.exe launch ubuntu2004
+multipass.exe shell ubuntu2004
 ```
+
+## Check the pod
+```
+sudo microk8s kubectl get pods --all-namespaces
+```
+
+## Troubleshooting 
 check the logs 
 ```
  tail -f /var/log/cloud-init-output.log
