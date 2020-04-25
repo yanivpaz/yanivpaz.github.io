@@ -34,7 +34,7 @@ runcmd:
  - sudo snap install microk8s --classic 
  - sudo microk8s enable helm3
  - sudo microk8s helm3 repo add stable https://kubernetes-charts.storage.googleapis.com
- - sudo microk8s helm3 install my-jenkins --set persistence.enabled=false --set serviceType=NodePort stable/jenkins
+ - sudo microk8s helm3 install my-jenkins --set persistence.enabled=false,serviceType=master.NodePort,master.nodePort=31000 stable/jenkins
 ```
 
 ## Spin up the vm 
