@@ -54,7 +54,6 @@ multipass.exe shell ubuntu2004
 ```
 sudo microk8s kubectl get pods --all-namespaces
 ```
-follow the online screen
 
 ## Login to the Jenkins UI
 ```
