@@ -1,5 +1,5 @@
 # Multi pass
-Multipass is simple provisoning tool from Canonical . 
+Multipass is simple provisoning tool from Canonical .   
 The tool is 
 * similar to the [vagrant](https://www.vagrantup.com/)  , but offer more simple and intuitive user experience .
 * leverage cloud init to setup the vm during startup , as standard cloud instances. 
