@@ -38,7 +38,7 @@ runcmd:
 ## Spin up the vm 
 open cmd window and run the following command 
 ```
-multipass.exe launch 20.04 -n ubutnu2004 --cloud-init cloud-config.yaml
+multipass.exe launch 20.04 -n ubuntu2004 --cloud-init cloud-config.yaml -v
 ```
 
 ## ssh to the instance 
