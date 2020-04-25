@@ -34,6 +34,7 @@ runcmd:
  - sudo snap install microk8s --classic 
  - sudo microk8s enable helm3
  - sudo microk8s helm3 repo add stable https://kubernetes-charts.storage.googleapis.com
+ - sudo microk8s enable dns
  - sudo microk8s helm3 install my-jenkins --set persistence.enabled=false,master.serviceType=NodePort,master.nodePort=31000 stable/jenkins
 ```
 
