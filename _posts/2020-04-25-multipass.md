@@ -5,7 +5,7 @@ subtitle: Goodbye vagrant - hello multipass
 comments: true
 ---
 
-# Multi pass
+# Multi pass   
 In the search of best K8s experinece on Windows there are several options :
 * [Docker desktop with K8s](https://www.docker.com/blog/docker-windows-desktop-now-kubernetes/)
 * [WLS2](https://ubuntu.com/wsl) with [K3s](https://k3s.io/)
