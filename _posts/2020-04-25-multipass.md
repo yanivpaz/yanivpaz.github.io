@@ -11,7 +11,8 @@ In the search of best K8s experinece on Windows there are several options :
 * [WLS2](https://ubuntu.com/wsl) with [K3s](https://k3s.io/)
 * [Redhat CRC](https://developers.redhat.com/blog/2019/09/05/red-hat-openshift-4-on-your-laptop-introducing-red-hat-codeready-containers/)
 
-In this blog I will review another option - the latest Ubuntu 20.04 with microck8s.
+In this blog I will review another option with the latest Ubuntu 20.04 with microck8s.
+I will demonstrate quick Jenkins installation . 
 
 Multipass is simple provisoning tool from Canonical .   
 The Multipasstool is:
@@ -19,7 +20,7 @@ The Multipasstool is:
 * leverage cloud init to setup the vm during startup , as standard cloud instances. 
 * provide similar capabilities as WSL2 on Windows 
 
-Discllaimer : the commands I am using are for demo only.
+Disclaimer : the commands I am using are for demo only.
 
 ## Install multipss 
 The tool is available for Mac, Windows and Linux. 
@@ -35,7 +36,7 @@ runcmd:
  - sudo microk8s enable helm3
  - sudo microk8s helm3 repo add stable https://kubernetes-charts.storage.googleapis.com
  - sudo microk8s enable dns
- - sudo microk8s helm3 install my-jenkins --set persistence.enabled=false,master.serviceType=NodePort,master.nodePort=31000 stable/jenkins
+ - sudo microk8s helm3 install my-jenkins --set persistence.enabled=false,master.serviceType=NodePort,master.adminPassword="admin",master.nodePort=31000 stable/jenkins
 ```
 
 ## Spin up the vm 
@@ -54,6 +55,8 @@ multipass.exe shell ubuntu2004
 sudo microk8s kubectl get pods --all-namespaces
 ```
 follow the online screen
+
+## Login to the 
 
 ## Troubleshooting 
 check the logs 
