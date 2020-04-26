@@ -27,6 +27,7 @@ Disclaimer: the commands I am using are for demo only.
 The tool is available for Mac, Windows and Linux at [multipass site](https://multipass.run/)
 
 * Create cloud-config.yaml file
+this file will be executed during first boot of the instance
 ```
 #cloud-config
 
@@ -38,7 +39,7 @@ runcmd:
  - sudo microk8s helm3 install my-jenkins --set persistence.enabled=false,master.serviceType=NodePort,master.adminPassword="admin",master.nodePort=31000 stable/jenkins
 ```
 
-* Spin up the vm 
+* Spin up the vm  
 open cmd window and run the following command 
 ```
 multipass.exe launch 20.04 -n ubuntu2004 --cloud-init cloud-config.yaml -v
