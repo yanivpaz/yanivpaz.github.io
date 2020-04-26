@@ -45,6 +45,10 @@ multipass.exe launch 20.04 -n ubuntu2004 --cloud-init cloud-config.yaml -v
 ```
 
 ## Access the VM 
+* Get the IP of the VM 
+```
+multipass.exe info ubuntu2004
+```
 * Login to the instance 
 ```
 multipass.exe shell ubuntu2004
@@ -53,14 +57,9 @@ multipass.exe shell ubuntu2004
 ```
 sudo microk8s kubectl get pods --all-namespaces
 ```
-* Login to the Jenkins UI
-Get the VM IP
-```
-multipass.exe info ubuntu2004
-```
-* Login to the [IPv4 address]:31000 with admin/admin 
+* Login to the [ip address from multipass.exe info stage]:31000 with admin/admin 
 * Troubleshooting 
-check the logs 
+  * check the logs 
 ```
- tail -f /var/log/cloud-init-output.log
+    tail -f /var/log/cloud-init-output.log
 ```
