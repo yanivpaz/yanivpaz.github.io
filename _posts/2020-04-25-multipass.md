@@ -28,8 +28,7 @@ The tool is available for Mac, Windows and Linux at [multipass site](https://mul
 
 * Create cloud-config.yaml file:  
 this file will be executed during first boot of the instance  
-```
-#cloud-config
+```#cloud-config
 
 runcmd:
  - sudo snap install microk8s --classic 
@@ -50,19 +49,16 @@ multipass.exe launch 20.04 -n ubuntu2004 --cloud-init cloud-config.yaml -v
 ```
 multipass.exe shell ubuntu2004
 ```
-
 * Check the pod
 ```
 sudo microk8s kubectl get pods --all-namespaces
 ```
-
 * Login to the Jenkins UI
 Get the VM IP
 ```
 multipass.exe info ubuntu2004
 ```
-Login to the [IPv4 address]:31000 with admin/admin 
-
+* Login to the [IPv4 address]:31000 with admin/admin 
 * Troubleshooting 
 check the logs 
 ```
