@@ -15,9 +15,9 @@ In this blog I will review another option with the latest Ubuntu 20.04 using mul
 
 Multipass is a simple provisioning tool from Canonical.   
 The Multipasstool is:
-* Similar to the [vagrant](https://www.vagrantup.com/)  , but offer more simple and intuitive user experience.
-* leverage cloud init to set up the vm during startup, as standard cloud instances. 
-* provide similar capabilities as WSL2 on Windows 
+* Similar to [vagrant](https://www.vagrantup.com/)  , but provide more simple and intuitive user experience.
+* Leverage cloud init to set up the vm during startup, as standard cloud instances. 
+* Provides similar capabilities as WSL2 on Windows 
 
 I will demonstrate a quick Jenkins installation. 
 Disclaimer: the commands I am using are for demo only.
@@ -32,7 +32,6 @@ this file will be executed during first boot of the instance
 
 
 #cloud-config
-
 runcmd:
  - sudo snap install microk8s --classic 
  - sudo microk8s enable helm3
@@ -47,8 +46,8 @@ open cmd window and run the following command
 multipass.exe launch 20.04 -n ubuntu2004 --cloud-init cloud-config.yaml -v
 ```
 
-## Access the VM 
-* Get the IP of the VM 
+## Accessing the VM 
+* Get the IP of the VM  , in order to get the IP of Jenkins UI
 ```
 multipass.exe info ubuntu2004
 ```
