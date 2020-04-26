@@ -22,10 +22,11 @@ The Multipasstool is:
 I will demonstrate a quick Jenkins installation. 
 Disclaimer: the commands I am using are for demo only.
 
-## Install multipass 
-The tool is available for Mac, Windows and Linux in [multipass site](https://multipass.run/)
+## Setup 
+* Install multipass  
+The tool is available for Mac, Windows and Linux at [multipass site](https://multipass.run/)
 
-## Create cloud-config.yaml file
+* Create cloud-config.yaml file
 ```
 #cloud-config
 
@@ -37,30 +38,31 @@ runcmd:
  - sudo microk8s helm3 install my-jenkins --set persistence.enabled=false,master.serviceType=NodePort,master.adminPassword="admin",master.nodePort=31000 stable/jenkins
 ```
 
-## Spin up the vm 
+* Spin up the vm 
 open cmd window and run the following command 
 ```
 multipass.exe launch 20.04 -n ubuntu2004 --cloud-init cloud-config.yaml -v
 ```
 
-## Login to the instance 
+## Access the VM 
+* Login to the instance 
 ```
 multipass.exe shell ubuntu2004
 ```
 
-## Check the pod
+* Check the pod
 ```
 sudo microk8s kubectl get pods --all-namespaces
 ```
 
-## Login to the Jenkins UI
+* Login to the Jenkins UI
+Get the VM IP
 ```
 multipass.exe info ubuntu2004
 ```
+Login to the [IPv4 address]:31000 with admin/admin 
 
-Login to the <IPv4 address>:31000 with admin/admin 
-
-## Troubleshooting 
+* Troubleshooting 
 check the logs 
 ```
  tail -f /var/log/cloud-init-output.log
