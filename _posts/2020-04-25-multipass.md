@@ -27,7 +27,7 @@ Disclaimer: the commands I am using are for demo only.
 The tool is available for Mac, Windows and Linux at [multipass site](https://multipass.run/)
 
 * Create cloud-config.yaml file
-this file will be executed during first boot of the instance
+this file will be executed during first boot of the instance  
 ```
 #cloud-config
 
