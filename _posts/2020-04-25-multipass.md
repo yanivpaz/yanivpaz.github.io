@@ -29,7 +29,8 @@ The tool is available for Mac, Windows and Linux at [multipass site](https://mul
 * Create cloud-config.yaml file:  
 this file will be executed during first boot of the instance  
 ```
-`` ` ``
+
+
 #cloud-config
 
 runcmd:
