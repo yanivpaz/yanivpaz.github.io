@@ -1,0 +1,29 @@
+
+
+
+https://www.youtube.com/watch?v=o_gT_LfFn4s&list=PL7bmigfV0EqQzxcNpmcdTJ9eFRPBe-iZa&index=4&t=2408s
+
+kubectl exec -ti kind-control-plane bash
+kubectl run nginx --image=nginx --restart=Never -o yaml --dry-run > nginx.yaml
+cd /etc/kubernetes/manifests
+mv kube-control* /tmp ( controller manager not needed if running pod only )
+mv kube-schedule* /tmp ( populate nodeName before) 
+
+will not work on deployment as
+- controller manager create replicaset
+- replication controller will own the pods and user cant modify them
+
+kubectl label node worker2 pickme= 
+kubectl get node -l '!pickme='
+
+crictl rm -rf tyyy  
+crictl ps
+
+
+kubectl label nodes --all zone-
+
+tolerate everything  ( pods level , under spec ) 
+nodeSelector:
+  node-role.kubernetes.io/master: ""
+tolerations:
+  - operator: Exists
