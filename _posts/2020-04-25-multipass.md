@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Local Kubernetes 
-subtitle: Goodbye vagrant - hello multipass
+title: Local Kubernetes using multipass
+subtitle: ... and how to test cloudinit locally
 comments: true
 ---
 
