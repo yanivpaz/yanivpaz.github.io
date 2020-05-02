@@ -14,9 +14,9 @@ There are many ways to install local K8s cluster on local laptop , including :
 In this blog I will review another option with the latest Ubuntu 20.04 using multipass with microck8s.
 
 Multipass is a simple provisioning tool from Canonical.   
-The Multipasstool is:
-* Similar to [vagrant](https://www.vagrantup.com/)  , but provide more simple and intuitive user experience.
-* Leverage cloud init to set up the vm during startup, as standard cloud instances. 
+highlights of multipass are :
+* Provide simple way to spin up VM - similar to [vagrant](https://www.vagrantup.com/)  , but more simple and intuitive to use.
+* Leverage cloud init mechnism to set up the vm during startup, as standard cloud instances. 
 * Provides similar capabilities as WSL2 on Windows 
 
 I will demonstrate a quick Jenkins installation. 
