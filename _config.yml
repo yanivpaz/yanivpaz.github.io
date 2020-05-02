@@ -24,6 +24,8 @@ navbar-links:
   Home: "http://yanivpaz.com"
   About Me: "aboutme"
   Links:
+    - That devops guy : "https://www.youtube.com/channel/UCFe9-V_rN9nLqVNiI8Yof3w"
+    - TGIK : "tgik.io"
     - FPV Drones : "https://github.com/yanivpaz/drones"
   Resources:
     - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
