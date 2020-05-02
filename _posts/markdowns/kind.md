@@ -15,7 +15,7 @@ The example tested on Windows using WSL - should be similar  on other platforms
 
 
 ## Install kind
-
+open WSL and run the following commands :
 ```
 curl -LO "https://kind.sigs.k8s.io/dl/latest/linux-amd64.tgz"
 tar zxvf ./linux-amd64.tgz
