@@ -1,7 +1,7 @@
 ---
 layout: post
-title: EKS 
-subtitle: my EKS foundations bookmarks
+title: EKS bookmarks 
+subtitle: my EKS bookmarks
 gh-repo: yanivpaz/awsome-eks
 gh-badge: [star, fork, follow]
 tags: [eks]
