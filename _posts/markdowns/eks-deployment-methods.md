@@ -1,0 +1,8 @@
+| ID | Method        | description    | remarks     
+| ---|:------------- | :-------------|:---- |
+| 1|cloud formation | standard AWS method to deploy AWS resources||||
+| 2|aws cdk| generate cloud formation using code (typescript,python etc) | https://docs.aws.amazon.com/cdk/api/latest/docs/aws-eks-readme.html|||
+| 3|aws quick start|AWS collection od cloud formation templates and lambda function||||
+| 4|eksctl | AWS cli to automate cloudformatio management ||||
+| 5|cluster api| Create K8s cluster using K8s CRD ( need to provision small cluster before)|https://github.com/kubernetes-sigs/cluster-api-provider-aws|
+| 6|terraform | hashicorp multi cloud tool||||
