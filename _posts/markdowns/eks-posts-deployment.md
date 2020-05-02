@@ -12,7 +12,7 @@
 |10| Cluster auto scalar| adjusts the number of nodes in your cluster when pods fail to launch due to lack of resources or when nodes in the cluster are underutilized and their pods can be rescheduled onto other nodes in the cluster.| https://docs.aws.amazon.com/eks/latest/userguide/cluster-autoscaler.html
 |11| Horizontal pod autoscalar |automatically scales the number of pods in a deployment, replication controller, or replica set based on that resource's CPU utilization. | https://docs.aws.amazon.com/eks/latest/userguide/horizontal-pod-autoscaler.html
 |12| Netowrking integration (CNI) |  Networking plugin for pod networking in Kubernetes using Elastic Network Interfaces on AWS.     |   https://github.com/aws/amazon-vpc-cni-k8s/blob/master/README.md  |
-|13| CNI matrics helper  |  scrape elastic network interface and IP address information, aggregate metrics at the cluster level     |   https://docs.aws.amazon.com/eks/latest/userguide/cni-metrics-helper.html  |
+|13| CNI metrics helper  |  scrape elastic network interface and IP address information, aggregate metrics at the cluster level     |   https://docs.aws.amazon.com/eks/latest/userguide/cni-metrics-helper.html  |
 |14| Spot handler | handle Spot interruptions. |https://eksworkshop.com/spotworkers/deployhandler/
 |15| RBAC | simplify authorization in Kubernetes |https://github.com/FairwindsOps/rbac-manager/blob/master/docs/aws.md
 
