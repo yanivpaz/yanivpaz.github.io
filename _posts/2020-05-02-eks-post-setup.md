@@ -1,11 +1,12 @@
 ---
 layout: post
-title: EKS posts setup
-checklist for EKS post setup
+title: EKS addons
+subtitle: post setup K8s addons 
+tags: [eks]
 comments: true
 ---
 
-# K8s addons 
+# curated list of eks addons 
 so you managed to install EKS control plane and worked nodes in your favourite method. 
 dont forget to deploy the relevant addons from [this list](https://github.com/yanivpaz/yanivpaz.github.io/blob/master/_posts/markdowns/eks-posts-deployment.md) .
 
