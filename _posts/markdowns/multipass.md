@@ -5,7 +5,6 @@ The tool is available for Mac, Windows and Linux at [multipass site](https://mul
 * Create cloud-config.yaml file:  
 this file will be executed during the first boot of the instance  
 ```
-
 #cloud-config
 runcmd:
  - sudo snap install microk8s --classic 
