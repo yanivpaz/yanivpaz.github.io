@@ -36,8 +36,9 @@ multipass.exe shell ubuntu2004
 sudo microk8s kubectl get pods --all-namespaces
 ```
 * Login to the Jenkins UI
-open chrome and type [ip address from multipass.exe info stage]:31000 with admin/admin   
-* Troubleshooting  
+open chrome and type [ip address from multipass.exe info stage]:31000 with admin/admin     
+## Troubleshooting  
+Run the following command 
 ```
 tail -f /var/log/cloud-init-output.log
 ```
