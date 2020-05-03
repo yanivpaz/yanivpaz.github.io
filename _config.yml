@@ -28,6 +28,7 @@ navbar-links:
     - TGIK : "tgik.io"
     - FPV Drones : "https://github.com/yanivpaz/drones"
   Resources:
+    - posts@github: "https://github.com/yanivpaz/yanivpaz.github.io/tree/master/_posts"
     - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
     - Learn markdown: "http://www.markdowntutorial.com/"
 
