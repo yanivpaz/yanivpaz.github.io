@@ -16,7 +16,8 @@ download the couchbase-autonomous package after short registration from
 https://www.couchbase.com/downloads  
 OR
 ```
-curl -LO https://packages.couchbase.com/kubernetes/2.0.0/couchbase-autonomous-operator-kubernetes_2.0.0-linux-x86_64.tar.gz
+export CBVER=2.0.0
+curl -LO https://packages.couchbase.com/kubernetes/${CBVER}/couchbase-autonomous-operator-kubernetes_${CBVER}-linux-x86_64.tar.gz
 ```
 
 ## Install 
