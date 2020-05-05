@@ -15,7 +15,7 @@
 |13| CNI metrics helper  |  scrape elastic network interface and IP address information, aggregate metrics at the cluster level     |   https://docs.aws.amazon.com/eks/latest/userguide/cni-metrics-helper.html  | |
 |14| Spot handler | handle Spot interruptions. |https://eksworkshop.com/spotworkers/deployhandler/
 |15| RBAC | simplify authorization in Kubernetes |https://github.com/FairwindsOps/rbac-manager/blob/master/docs/aws.md
-
+|16| Kibana proxy   | logging-kibana-proxy  | TBD ?
 
 
 
