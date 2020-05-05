@@ -4,7 +4,7 @@
 |2| AppMesh    | Integration with AWS AppMesh     |  https://github.com/aws/aws-app-mesh-controller-for-k8s |
 |3| Storage integration (CSI)  |  Container Storage Interface (CSI) Driver provides a CSI interface used by Container Orchestrators to manage the lifecycle of Amazon EBS volumes.    | https://github.com/kubernetes-sigs/aws-ebs-csi-driver    | requiered for dynamic storage allocation 
 |4| Node drainer |  Gracefull shutdown of EC2 isntances      |  https://github.com/aws-samples/amazon-k8s-node-drainer   |
-|5| Worker nodes logs  |  Collect all worker nodes logs to elastic / other log aggregator     |  https://eksworkshop.com/intermediate/230_logging/deploy/   |
+|5| Worker nodes logs (fluentbit,flunetd) |  Collect all worker nodes logs to elastic / other log aggregator     |  https://eksworkshop.com/intermediate/230_logging/deploy/   |
 |6| Service operator  |  Create cloud resources using kubernetes API . like in [GCP cloud connector](https://cloud.google.com/config-connector/docs/overview)      |   https://github.com/aws/aws-service-operator-k8s  |
 |7| Monitoring | EKS quick start comes with Prometheus.   you probably dont want to use it .      |   https://eksworkshop.com/intermediate/240_monitoring/  |
 |8| ALB integration  | The AWS ALB Ingress Controller satisfies Kubernetes ingress resources by provisioning Application Load Balancers |   https://github.com/kubernetes-sigs/aws-alb-ingress-controller    |
