@@ -22,7 +22,7 @@ export CBVER=2.0.0
 curl -LO https://packages.couchbase.com/kubernetes/${CBVER}/couchbase-autonomous-operator-kubernetes_${CBVER}-linux-x86_64.tar.gz
 ```
 
-## Install 
+## Install operator and admission control
 ```
 tar zxvf couchbase-autonomous-operator-kubernetes_${CBVER}-linux-x86_64.tar.gz
 rm -f couchbase-autonomous-operator-kubernetes_${CBVER}-linux-x86_64.tar.gz
@@ -34,14 +34,17 @@ rm -rf sync* pillo* couch*
 kubectl apply -f .
 ```
 
+## Check operator and admission control
+```
+kubectl get pod -l 'app in (couchbase-operator-admission,couchbase-operator)' 
+```
+
+
 ## Install Cluster
 ```
 # bring your couchbase-cluster.yaml
 kubectl apply couchbase-cluster.yaml
 ```
 
-## Check 
-```
-kubectl get pod -l 'app in (couchbase-operator-admission,couchbase-operator)' 
-```
+
 
