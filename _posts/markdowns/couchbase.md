@@ -26,9 +26,18 @@ curl -LO https://packages.couchbase.com/kubernetes/${CBVER}/couchbase-autonomous
 ```
 tar zxvf couchbase-autonomous-operator-kubernetes_${CBVER}-linux-x86_64.tar.gz
 rm -f couchbase-autonomous-operator-kubernetes_${CBVER}-linux-x86_64.tar.gz
+kubectl apply -f couchbase-autonomous-operator-kubernetes_${CBVER}-linux-x86_64/crd.yaml
+
 #Generate files 
-couchbase-autonomous-operator-kubernetes_${CBVER}-linux-x86_64/bin/cbopcfg -file
+cd couchbase-autonomous-operator-kubernetes_${CBVER}-linux-x86_64/bin/cbopcfg -file
+rm -rf sync* pillo* couch*
 kubectl apply -f .
+```
+
+## Install Cluster
+```
+# bring your couchbase-cluster.yaml
+kubectl apply couchbase-cluster.yaml
 ```
 
 ## Check 
