@@ -1,13 +1,4 @@
----
-layout: post
-title: linters 
-subtitle: linters for ansible and cloudformation 
-tags: [ansible lint]
-comments: true
----
-
-
-## Ansible lint 
+## Ansible linter 
 * link
 ```
 https://docs.ansible.com/ansible-lint/
@@ -29,7 +20,7 @@ for example, exclude readbility and formatting rules :
 ansible-lint -x formatting,502 <playbook> / rules dir
 ```
 
-## cloudformation lint
+## cloudformation linter
 * link
 ```
 https://github.com/aws-cloudformation/cfn-python-lint
@@ -51,7 +42,7 @@ cfn-lint -t <cloudformation template>
 ```
 
 
-## Kubernetes lint
+## Kubernetes linter
 * link 
 ```
 https://www.kubeval.com/
