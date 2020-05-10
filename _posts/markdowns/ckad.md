@@ -14,10 +14,16 @@ mkdir ~/.kube ; cp /mnt/c/Users/${WINNAME}/.kube/config ~/.kube
 ```
 
 ## Create resources 
+* pod
 ```
-k run  --image=nginx -o yaml --dry-run=client --limits="cpu=100m" --serviceaccount=mysa --requests="memory=100Mi"  \
+k run mypod  --image=nginx -o yaml --dry-run=client --limits="cpu=100m" --serviceaccount=mysa --requests="memory=100Mi"  \
 --labels="mylabel=myvalue" --port=80  --expose  myservice -- /bin/sh -c  'echo mytest'
-k create deployment mydep --image=nginx 
+```
+
+* other resources 
+```
+k create deployment mydep --image=nginx --dry-run=client -o yaml
+
 ```
 
 ```
