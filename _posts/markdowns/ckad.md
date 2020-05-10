@@ -14,6 +14,7 @@ mkdir ~/.kube ; cp /mnt/c/Users/${WINNAME}/.kube/config ~/.kube
 ```
 
 ```
+kubectl config set-context <context-of-question> --namespace=<namespace-of-question>
  kubectl delete pod nginx --grace-period=0 --force
  kubectl get pods --all-namespaces -o=jsonpath='{range .items[*]}{"\n"}{.metadata.name}{":\t"}{range .spec.containers[*]}{.image}{", "}{end}{end}' |sort
 ```
