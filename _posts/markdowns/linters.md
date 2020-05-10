@@ -40,14 +40,10 @@ cfn-lint -t <cloudformation template>
 ## Kubernetes linter
 * [link](https://www.kubeval.com/)
 
-* installation  
-```
-https://www.kubeval.com/installation/
-```
+* [installation](https://www.kubeval.com/installation/)
 
 * run the linter
 ```
 kubeval -v 1.6.6 my-deployment.yaml
 kubeval --openshift -v 1.5.1 my-deployment.yaml
-
 ```
