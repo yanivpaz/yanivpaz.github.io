@@ -1,8 +1,6 @@
 ## Ansible linter 
-* link
-```
-https://docs.ansible.com/ansible-lint/
-```
+* [link](https://docs.ansible.com/ansible-lint/)
+
 
 * installation 
 ```
@@ -21,10 +19,7 @@ ansible-lint -x formatting,502 <playbook>/<rules dir>
 ```
 
 ## cloudformation linter
-* link
-```
-https://github.com/aws-cloudformation/cfn-python-lint
-```
+* [link](https://github.com/aws-cloudformation/cfn-python-lint)
 
 * installation
 ```
@@ -43,10 +38,7 @@ cfn-lint -t <cloudformation template>
 
 
 ## Kubernetes linter
-* link 
-```
-https://www.kubeval.com/
-```
+* [link](https://www.kubeval.com/)
 
 * installation  
 ```
