@@ -13,7 +13,7 @@ comments: true
 https://docs.ansible.com/ansible-lint/
 ```
 
-* install ansible lint
+* installation 
 ```
 sudo pip install ansible-lint
 ```
@@ -26,7 +26,7 @@ ansible-lint  -T
 * run the linter without relevant rules -
 for example, exclude readbility and formatting rules : 
 ```
-ansible-lint -x formatting,502 <playbook> / rules dir
+ansible-lint -x formatting,502 <playbook>/<rules dir>
 ```
 
 ## cloudformation lint
@@ -35,12 +35,12 @@ ansible-lint -x formatting,502 <playbook> / rules dir
 https://github.com/aws-cloudformation/cfn-python-lint
 ```
 
-* install
+* installation
 ```
 sudo pip install cfn-lint
 ```
 
-* check available rules:
+* check available rules
 ```
 cfn-lint -l
 ```
