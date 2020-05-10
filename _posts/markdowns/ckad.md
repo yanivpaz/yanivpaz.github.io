@@ -13,6 +13,13 @@ mkdir ~/.kube ; cp /mnt/c/Users/${WINNAME}/.kube/config ~/.kube
 
 ```
 
+## Create resources 
+```
+k run  --image=nginx -o yaml --dry-run=client --limits="cpu=100m" --serviceaccount=mysa --requests="memory=100Mi"  \
+--labels="mylabel=myvalue" --port=80  --expose  myservice -- /bin/sh -c  'echo mytest'
+k create deployment mydep --image=nginx 
+```
+
 ```
 kubectl config set-context <context-of-question> --namespace=<namespace-of-question>
  kubectl delete pod nginx --grace-period=0 --force
