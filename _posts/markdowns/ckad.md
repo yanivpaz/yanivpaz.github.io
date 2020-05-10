@@ -26,8 +26,19 @@ k create deployment mydep --image=nginx --dry-run=client -o yaml
 
 ```
 
+
+## set context 
 ```
+k config get-contexts
 kubectl config set-context <context-of-question> --namespace=<namespace-of-question>
+k config current-context  
+
+k config set-context --current --namespace ckad-prep    
+k config view | grep names        
+```
+
+```
+
  kubectl delete pod nginx --grace-period=0 --force
  kubectl get pods --all-namespaces -o=jsonpath='{range .items[*]}{"\n"}{.metadata.name}{":\t"}{range .spec.containers[*]}{.image}{", "}{end}{end}' |sort
 ```
