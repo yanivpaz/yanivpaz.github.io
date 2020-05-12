@@ -17,3 +17,6 @@
 |14| Spot handler | handle Spot interruptions. |https://eksworkshop.com/spotworkers/deployhandler/
 |15| RBAC | simplify authorization in Kubernetes |https://github.com/FairwindsOps/rbac-manager/blob/master/docs/aws.md
 |16| metrics-server | Metric server for HPA | https://github.com/helm/charts/tree/master/stable/metrics-server
+
+
+Resource (partial list )  : https://github.com/aws/eks-charts/tree/master/stable
