@@ -43,6 +43,12 @@ k config view | grep names
  kubectl get pods --all-namespaces -o=jsonpath='{range .items[*]}{"\n"}{.metadata.name}{":\t"}{range .spec.containers[*]}{.image}{", "}{end}{end}' |sort
 ```
 
+## Patch example
+```
+kubectl patch deployments my-deployment  \
+-p '{"spec": {"template": {"spec": {"nodeSelector": {"kubernetes.io/hostname": "mynewhost"}}}}}' \
+```
+ 
 
 ## Links 
 * https://github.com/cncf/curriculum  
