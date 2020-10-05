@@ -25,7 +25,7 @@ navbar-links:
   About Me: "aboutme"
   Links:
     - That devops guy : "https://www.youtube.com/channel/UCFe9-V_rN9nLqVNiI8Yof3w"
-    - TGIK : "tgik.io"
+    - TGIK : "https://www.tgik.io"
     - FPV Drones : "https://github.com/yanivpaz/drones"
   Resources:
     - posts@github: "https://github.com/yanivpaz/yanivpaz.github.io/tree/master/_posts"
