@@ -2,6 +2,19 @@
 * Install multipass  
 The tool is available for Mac, Windows and Linux at [multipass site](https://multipass.run/)
 
+
+* Multipass default dir
+in order to change multipass data dir run the following from powershell admin 
+```
+Stop-Service Multipass
+Set-ItemProperty -Path "HKLM:System\CurrentControlSet\Control\Session Manager\Environment" -Name MULTIPASS_STORAGE -Value "d:\multipass"
+Start-Service Multipass
+```
+
+See [this link](https://github.com/canonical/multipass/pull/1789) for more information 
+
+
+
 * Create cloud-config.yaml file:  
 this file will be executed during the first boot of the instance  
 ```
