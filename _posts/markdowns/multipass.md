@@ -47,7 +47,7 @@ multipass.exe shell ubuntu2004
 sudo microk8s kubectl get pods --all-namespaces
 ```
 * Login to the Jenkins UI  
-  - open chrome and type [ip address from multipass.exe info stage]:31000  
+  - open chrome and type [ip address from multipass.exe info output]:31000  
   - use admin/admin as credantials     
 ## Troubleshooting  
 Run the following command 
