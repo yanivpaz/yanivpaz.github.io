@@ -1,11 +1,9 @@
 # CKA prep
 
 ## SecurityContexts
-```
-SecurityContexts - access underlying host 
-                   runAsUser
-                   
-                   
+ 
+https://kubernetes.io/docs/tasks/configure-pod-container/security-context/ 
+```                   
 sudo useradd -u 2000 container-user-0
 sudo groupadd -g 3000 container-group-0
 
