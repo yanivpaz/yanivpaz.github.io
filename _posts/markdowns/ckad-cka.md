@@ -1,4 +1,7 @@
-# Notes for CKAD preparation 
+
+
+
+# Notes for CKA/D preparation 
 ## commands 
 
 ```
@@ -13,6 +16,11 @@ mkdir ~/.kube ; cp /mnt/c/Users/${WINNAME}/.kube/config ~/.kube
 
 ```
 
+## CKA certificate
+- Client certificates
+- Kubernetes api certificate
+- Service account key pair ( to sign the token )
+
 ## Create resources 
 * pod
 ```
@@ -25,7 +33,6 @@ k run mypod  --image=nginx -o yaml --dry-run=client --limits="cpu=100m" --servic
 k create deployment mydep --image=nginx --dry-run=client -o yaml
 
 ```
-
 
 ## set context 
 ```
