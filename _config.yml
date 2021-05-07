@@ -28,7 +28,9 @@ navbar-links:
     - TGIK : "https://www.tgik.io"
     - Containers from the Couch : "https://www.youtube.com/channel/UCYg157Qy_U7ZR1WUHTq0Q8Q"
     - Coffee and Cloud Native : "https://www.youtube.com/watch?v=I02GIAKwLBU"
+  Hobbies:
     - FPV Drones : "https://github.com/yanivpaz/drones"
+    - Crypto : "https://github.com/yanivpaz/crypto/blob/main/README.md"
   Resources:
     - posts@github: "https://github.com/yanivpaz/yanivpaz.github.io/tree/master/_posts"
     - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
