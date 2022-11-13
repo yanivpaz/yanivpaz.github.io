@@ -9,7 +9,7 @@ comments: true
 ---
 
 
-[Dont use branches - RH](https://developers.redhat.com/articles/2022/07/20/git-workflows-best-practices-gitops-deployments)
+[Dont use branches - RH](https://developers.redhat.com/articles/2022/07/20/git-workflows-best-practices-gitops-deployments)  
 [Dont use branches -Codefresh](https://codefresh.io/blog/stop-using-branches-deploying-different-gitops-environments/)
 
 [Lightning Talk: Managing the ‘Git’ Half of ‘GitOps’: How to Structure Infrastructure](https://www.youtube.com/watch?v=ueTaD1FCsfU&t=411s)  
