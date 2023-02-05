@@ -23,20 +23,20 @@ Alt space - search
 Ctrl +shift + mouse - change mouse opacity of cmd window
 
 ## Changes after installation 
-Accessability -> keyboard -> use print screen to open screen snipping 
-Turn windows feature on or off -> Windows Sandbox (require restart)
-Install Microsoft whiteboard 
+Accessability -> keyboard -> use print screen to open screen snipping  
+Turn windows feature on or off -> Windows Sandbox (require restart)  
+Install Microsoft whiteboard  
 System -> Multitasking -> title bar windows shake 
-Change to "Sun and Sand PREMIUM" theme
-Change to Windows spotlight background
+Change to "Sun and Sand PREMIUM" theme  
+Change to Windows spotlight background  
 
 
 ## Windows tools 
-PowerToys  
-Sysinternals suite (auto runs ,process explorer)
-Step recorder 
-Quick assist ( any desk like) 
-Micosoft power tools 
-Video Editor/ Clip Champs
-Microsoft whiteboard 
+PowerToys   
+Sysinternals suite (auto runs ,process explorer)  
+Step recorder  
+Quick assist ( any desk like)  
+Micosoft power tools  
+Video Editor/ Clip Champs  
+Microsoft whiteboard  
 
