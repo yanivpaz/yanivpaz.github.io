@@ -9,7 +9,7 @@ comments: true
 ---
 
 ## Shorcuts 
-Windows V - paste from clipboard manager ( Dito like)  
+Windows V - paste from clipboard manager ( Dito like)   
 Windows H - dictation    
 Windows A - windows Action   
 Windows N - Windows notifications  
@@ -17,16 +17,16 @@ Windows Z - snaps layout
 Windows I - settings   
 Windows ; - Emojies   
 Winows G - sceen recorder   
-Windows + Ctrl + T  - Always on top  (require power toys)  
-Ctrl + shift + esc - task manager
-Alt space - search 
-Ctrl +shift + mouse - change mouse opacity of cmd window
+Windows + Ctrl + T  - Always on top  (require power toys)   
+Ctrl + shift + esc - task manager  
+Alt space - search  
+Ctrl +shift + mouse - change mouse opacity of cmd window  
 
-## Changes after installation 
-Accessability -> keyboard -> use print screen to open screen snipping  
-Turn windows feature on or off -> Windows Sandbox (require restart)  
-Install Microsoft whiteboard  
-System -> Multitasking -> title bar windows shake 
+## Changes after installation  
+Accessability -> keyboard -> use print screen to open screen snipping   
+Turn windows feature on or off -> Windows Sandbox (require restart)   
+Install Microsoft whiteboard   
+System -> Multitasking -> title bar windows shake  
 Change to "Sun and Sand PREMIUM" theme  
 Change to Windows spotlight background  
 
