@@ -8,7 +8,7 @@ tags: [org]
 comments: true
 ---
 
-
+[Directory battle](https://youtu.be/IpvFd41R9Vg?t=1876)
 [Dont use branches - RH](https://developers.redhat.com/articles/2022/07/20/git-workflows-best-practices-gitops-deployments)  
 [Dont use branches -Codefresh](https://codefresh.io/blog/stop-using-branches-deploying-different-gitops-environments/)
 
