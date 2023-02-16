@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Windows
+title: Windows tips and trick
 subtitle: tips and tricks
 gh-repo: yanivpaz/code-examples
 gh-badge: [star, fork, follow]
@@ -8,7 +8,7 @@ tags: [org]
 comments: true
 ---
 
-## Shorcuts 
+## Shortcuts 
 * Windows V - paste from clipboard manager ( Dito like)   
 * Windows H - dictation    
 * Windows A - windows Action   
@@ -21,6 +21,11 @@ comments: true
 * Ctrl + shift + esc - task manager  
 * Alt + space - search  
 * Ctrl +shift + mouse - change mouse opacity of cmd window  
+* Windows+ ` - open Terminal in Quake mode (Windows Terminal)
+
+### Power toys
+* Windows +shift +H  - Toggle mouse affect 
+* Two clicks on left control key - mouse focus 
 
 ## Changes after installation  
 * Accessability -> keyboard -> use print screen to open screen snipping   
