@@ -33,7 +33,7 @@ comments: true
 * Install Microsoft whiteboard   
 * System -> Multitasking -> title bar windows shake  
 * Change to "Sun and Sand PREMIUM" theme  
-* Change to Windows spotlight background  
+* Power toys : Change to Windows spotlight background  
 
 
 ## Windows tools 
