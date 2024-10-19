@@ -9,6 +9,9 @@ https://www.perplexity.ai/page/aws-ai-practitioner-certificat-GsfS5zG6RxeN4JuEOO
 https://media.whizlabs.com/website/Cheat-Sheet-AWS-AI-Practitioner.pdf
 
 
+## Course 
+https://www.udemy.com/course/aws-ai-practitioner-certified/learn/lecture/44886373?start=3#overview
+
 ## Sessions 
 https://github.com/aws/amazon-sagemaker-examples/blob/main/introduction_to_amazon_algorithms/jumpstart-foundation-models/text-generation-falcon.ipynb
 
