@@ -6,6 +6,7 @@ https://www.linkedin.com/posts/fhoskyns_aws-awscertified-aipractitioner-activity
 
 ## Articles 
 https://www.perplexity.ai/page/aws-ai-practitioner-certificat-GsfS5zG6RxeN4JuEOOmA.g
+https://media.whizlabs.com/website/Cheat-Sheet-AWS-AI-Practitioner.pdf
 
 
 ## Sessions 
