@@ -23,5 +23,6 @@ https://github.com/aws/amazon-sagemaker-examples/blob/main/introduction_to_amazo
   * for example: images classification
 * AWS augmented AI
   * prediction by human or machines 
-
+* Amazon transcribe for medical
+  * HIPAA compliant 
     
