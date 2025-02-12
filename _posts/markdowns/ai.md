@@ -15,3 +15,9 @@ https://www.udemy.com/course/aws-ai-practitioner-certified/learn/lecture/4488637
 ## Sessions 
 https://github.com/aws/amazon-sagemaker-examples/blob/main/introduction_to_amazon_algorithms/jumpstart-foundation-models/text-generation-falcon.ipynb
 
+
+## AWS services
+* Textract 
+* Kendra - document search service
+* Mechanical tork - ditributed virtual workfforce
+  * for example : images classification  
