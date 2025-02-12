@@ -24,5 +24,8 @@ https://github.com/aws/amazon-sagemaker-examples/blob/main/introduction_to_amazo
 * AWS augmented AI
   * prediction by human or machines 
 * Amazon transcribe for medical
-  * HIPAA compliant 
+  * HIPAA compliant
+  * Transcribe medical - audio to text (physician)
+  * Amazon Comprehand medical - text to summary
+    * Transcribe to Amazon Comprehand  (kids )
     
