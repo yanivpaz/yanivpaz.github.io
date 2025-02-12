@@ -18,7 +18,13 @@ https://github.com/aws/amazon-sagemaker-examples/blob/main/introduction_to_amazo
 
 ## AWS services
 * Amazon Transcribe is an AWS service that makes it easy for customers to convert speech-to-text. Amazon Polly is a service that turns text into lifelike speech.
-* Textract 
+* Amazon Polly is a service that turns text into lifelike speech.
+* AWS Lex -  convert speech-to-text and recognize the customers' intentions.
+* Personalize 
+* Textract
+* AWS Comperhend
+  * Group articles by topics using Natural Language Processing (NLP).
+* Rekognition -  find objects, people, text, or scenes in images and videos. What AWS service should you
 * Kendra - document search service
 * Mechanical tork - distributed virtual workforce
   * for example: image classification
