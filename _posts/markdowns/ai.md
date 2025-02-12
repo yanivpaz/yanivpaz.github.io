@@ -42,7 +42,7 @@ https://github.com/aws/amazon-sagemaker-examples/blob/main/introduction_to_amazo
     * AWS Trainium - ML chip for deep learning
     * AWS Inferntia - ML chip for inference 
 
-  * Content moderation 
-    * AWS Rekognition is best for automated, scalable, and cost-effective content moderation with machine learning.
-    * AWS Mechanical Turk is ideal for tasks requiring human judgment and nuanced understanding.
+* Content moderation 
+  - AWS Rekognition is best for automated, scalable, and cost-effective content moderation with machine learning.
+  - AWS Mechanical Turk is ideal for tasks requiring human judgment and nuanced understanding.
     
