@@ -24,7 +24,9 @@ https://github.com/aws/amazon-sagemaker-examples/blob/main/introduction_to_amazo
 * Textract
 * AWS Comperhend
   * Group articles by topics using Natural Language Processing (NLP).
-* Rekognition -  find objects, people, text, or scenes in images and videos. What AWS service should you
+* Rekognition
+   * find objects, people, text, or scenes in images and videos. What AWS service should you
+   * find logo in social media 
 * Kendra - document search service
 * Mechanical tork - distributed virtual workforce
   * for example: image classification
