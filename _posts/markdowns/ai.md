@@ -19,7 +19,9 @@ https://github.com/aws/amazon-sagemaker-examples/blob/main/introduction_to_amazo
 ## AWS services
 * Textract 
 * Kendra - document search service
-* AWS augmented AI 
-* Mechanical tork - ditributed virtual workfforce
-  * for example : images classification
+* Mechanical tork - ditributed virtual workforce
+  * for example: images classification
+* AWS augmented AI
+  * prediction by human or machines 
+
     
