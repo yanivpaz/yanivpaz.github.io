@@ -17,16 +17,19 @@ https://github.com/aws/amazon-sagemaker-examples/blob/main/introduction_to_amazo
 
 
 ## AWS services
+* Amazon Transcribe is an AWS service that makes it easy for customers to convert speech-to-text. Amazon Polly is a service that turns text into lifelike speech.
 * Textract 
 * Kendra - document search service
-* Mechanical tork - ditributed virtual workforce
-  * for example: images classification
+* Mechanical tork - distributed virtual workforce
+  * for example: image classification
 * AWS augmented AI
-  * prediction by human or machines 
+  * prediction by humans or machines 
 * Amazon transcribe for medical
   * HIPAA compliant
   * Transcribe medical - audio to text (physician)
   * Amazon Comprehand medical - text to summary (analyzed text)
     * Transcribe to Amazon Comprehand  (kids )
   * Amazon hardware for AI
+    *AWS Trainium - ML chip for deep learning
+    *AWS Inferntia - ML chip for inference 
     
