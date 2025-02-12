@@ -26,6 +26,7 @@ https://github.com/aws/amazon-sagemaker-examples/blob/main/introduction_to_amazo
 * Amazon transcribe for medical
   * HIPAA compliant
   * Transcribe medical - audio to text (physician)
-  * Amazon Comprehand medical - text to summary
+  * Amazon Comprehand medical - text to summary (analyzed text)
     * Transcribe to Amazon Comprehand  (kids )
+  * Amazon hardware for AI
     
