@@ -26,18 +26,23 @@ https://github.com/aws/amazon-sagemaker-examples/blob/main/introduction_to_amazo
   * Group articles by topics using Natural Language Processing (NLP).
 * Rekognition
    * find objects, people, text, or scenes in images and videos. What AWS service should you
-   * find logo in social media 
+   * find logo in social media
+   * content moderation 
 * Kendra - document search service
 * Mechanical tork - distributed virtual workforce
   * for example: image classification
 * AWS augmented AI
-  * prediction by humans or machines 
+  * prediction checks by humans or machines 
 * Amazon transcribe for medical
   * HIPAA compliant
   * Transcribe medical - audio to text (physician)
   * Amazon Comprehand medical - text to summary (analyzed text)
     * Transcribe to Amazon Comprehand  (kids )
   * Amazon hardware for AI
-    *AWS Trainium - ML chip for deep learning
-    *AWS Inferntia - ML chip for inference 
+    * AWS Trainium - ML chip for deep learning
+    * AWS Inferntia - ML chip for inference 
+
+  * Content moderation 
+    * AWS Rekognition is best for automated, scalable, and cost-effective content moderation with machine learning.
+    * AWS Mechanical Turk is ideal for tasks requiring human judgment and nuanced understanding.
     
