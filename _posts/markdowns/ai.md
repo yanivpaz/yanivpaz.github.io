@@ -46,6 +46,10 @@ https://github.com/aws/amazon-sagemaker-examples/blob/main/introduction_to_amazo
   - AWS Rekognition is best for automated, scalable, and cost-effective content moderation with machine learning.
   - AWS Mechanical Turk is ideal for tasks requiring human judgment and nuanced understanding.
 
+* Responsible AI
+   * Interpretability - understand model decision ( Inertability vs performance)
+     - high Interpretability -  decision tree , liner regression
+   * Explainability - understand the nature of model  
 
 * [Sagemaker](sagemaker.md)
 * [Responsible AI - service cards](https://aws.amazon.com/about-aws/whats-new/2023/11/aws-ai-service-cards/)
