@@ -15,3 +15,6 @@
 • SageMaker JumpStart: ML model hub & pre-built ML solutions  
 • SageMaker Canvas: no-code interface for SageMaker  
 • MLFlow on SageMaker: use MLFlow tracking servers on AWS  
+
+• Network Isolation mode - Run SageMaker job containers without any outbound internet access  
+• SageMaker DeepAR forecasting algorithm: • Used to forecast time series data  
