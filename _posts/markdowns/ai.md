@@ -48,5 +48,6 @@ https://github.com/aws/amazon-sagemaker-examples/blob/main/introduction_to_amazo
 
 
  * Sagemaker
-   * supervised   
-   * unsupervides 
+   * extract -  supervised  , unsupervides
+   * AMT automatically chooses hyperparameter ranges, search strategy, maximum runtime of a tuning job, and early stop condition
+
