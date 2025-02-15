@@ -36,8 +36,8 @@ https://github.com/aws/amazon-sagemaker-examples/blob/main/introduction_to_amazo
 * Amazon transcribe for medical
   * HIPAA compliant
   * Transcribe medical - audio to text (physician)
-  * Amazon Comprehand medical - text to summary (analyzed text)
-    * Transcribe to Amazon Comprehand  (kids )
+  * Amazon Comprehend medical - text to summary (analyzed text)
+    * Transcribe to Amazon Comprehend  (kids )
   * Amazon hardware for AI
     * AWS Trainium - ML chip for deep learning
     * AWS Inferntia - ML chip for inference 
@@ -48,13 +48,21 @@ https://github.com/aws/amazon-sagemaker-examples/blob/main/introduction_to_amazo
 
 
  * Sagemaker
-   * extract -  supervised  , unsupervised
+   * extract -  supervised, unsupervised
    * AMT automatically chooses hyperparameter ranges, search strategy, maximum runtime of a tuning job, and early stop condition
-   * Real time vs asynchronous vs  batch vs serverless ( only RAM selection ,OOB ASG , more latency)
-   * Data wrangler - Prepare tabular and image data for machine learning (sql support aand data quality tool)
+   * Real time vs asynchronous vs  batch vs serverless ( only RAM selection,OOB ASG , more latency)
+   * Data wrangler - Prepare tabular and image data for machine learning (sql support and data quality tool)
       * use for transform 
-   * ML features -Features are inputs to ML models used during training and used for inference
-   * 
+   * ML features -Features are inputs to ML models used during training and used for inference (ie - data to birthday)
+   * Sagemaker clarify
+       *  evaluate model vs modelB
+       *  model explainability
+       *  Ability to detect and
+       *  explain biases in your datasets and models (ie - more men than women)
+    * SageMaker Ground truth - Reinforcement learning from human feedback
+       * • Reinforcement learning where human feedback is included in the “reward” function
+    * SageModel cards - Essential model information
+
 
   
  * [Deck](https://media.datacumulus.com/aws-aif/AWS%20Certified%20AI%20Practitioner%20Slides%20v10.pdf?_gl=1*1khaxia*_ga*MTAwODUyMTI5Mi4xNzM5NjM4MjU5*_ga_6GZZTGGX7H*MTczOTYzODI1OC4xLjAuMTczOTYzODI1OC42MC4wLjA.)
