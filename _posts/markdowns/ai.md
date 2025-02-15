@@ -47,34 +47,7 @@ https://github.com/aws/amazon-sagemaker-examples/blob/main/introduction_to_amazo
   - AWS Mechanical Turk is ideal for tasks requiring human judgment and nuanced understanding.
 
 
- * Sagemaker
-   * extract -  supervised, unsupervised
-   * AMT automatically chooses hyperparameter ranges, search strategy, maximum runtime of a tuning job, and early stop condition
-   * Real time vs asynchronous vs  batch vs serverless ( only RAM selection,OOB ASG , more latency)
-   * Data wrangler - Prepare tabular and image data for machine learning (sql support and data quality tool)
-      * use for transform 
-   * ML features -Features are inputs to ML models used during training and used for inference (ie - data to birthday)
-   * Sagemaker clarify
-       *  evaluate model vs modelB
-       *  model explainability
-       *  Ability to detect and
-       *  explain biases in your datasets and models (ie - more men than women)
-    * SageMaker Ground truth - Reinforcement learning from human feedback
-       * • Reinforcement learning where human feedback is included in the “reward” function
-    * SageMaker model registry
-    * SageMaker pipelines - build train and deploy models (like CD) - process, train,tune, AutoML  , Model, ClarityCheck,QualityCheck
-    * SageModel cards - Essential model information
-    * SageMaker canvas
-      * no coding
-      * ready to use models with integration to other AWS sercices 
-    * SageMaker
-       * Hub - browse , experiment  customize and deploy 
-       * Pre made solution - HL solution -browse ,  customize and deploy 
-    * MLFlows
-       * open source integrated with SageMaker
-       * part of SageMaker studio
-       * 
-
-  
+ * [Sagemaker](sagemaker.md)
+ 
  * [Deck](https://media.datacumulus.com/aws-aif/AWS%20Certified%20AI%20Practitioner%20Slides%20v10.pdf?_gl=1*1khaxia*_ga*MTAwODUyMTI5Mi4xNzM5NjM4MjU5*_ga_6GZZTGGX7H*MTczOTYzODI1OC4xLjAuMTczOTYzODI1OC42MC4wLjA.)
 
