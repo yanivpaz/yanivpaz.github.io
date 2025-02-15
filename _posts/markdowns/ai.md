@@ -48,6 +48,8 @@ https://github.com/aws/amazon-sagemaker-examples/blob/main/introduction_to_amazo
 
 
  * Sagemaker
-   * extract -  supervised  , unsupervides
+   * extract -  supervised  , unsupervised
    * AMT automatically chooses hyperparameter ranges, search strategy, maximum runtime of a tuning job, and early stop condition
+   * Real time vs asynchronous vs  batch vs serverless ( only RAM selection ,OOB ASG , more latency)
+   * 
 
