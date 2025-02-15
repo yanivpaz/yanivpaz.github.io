@@ -61,6 +61,7 @@ https://github.com/aws/amazon-sagemaker-examples/blob/main/introduction_to_amazo
        *  explain biases in your datasets and models (ie - more men than women)
     * SageMaker Ground truth - Reinforcement learning from human feedback
        * • Reinforcement learning where human feedback is included in the “reward” function
+    * SageMaker model registry 
     * SageModel cards - Essential model information
 
 
