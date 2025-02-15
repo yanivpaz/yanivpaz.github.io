@@ -52,6 +52,5 @@ https://github.com/aws/amazon-sagemaker-examples/blob/main/introduction_to_amazo
    * AMT automatically chooses hyperparameter ranges, search strategy, maximum runtime of a tuning job, and early stop condition
    * Real time vs asynchronous vs  batch vs serverless ( only RAM selection ,OOB ASG , more latency)
   
- * Deck
- * https://media.datacumulus.com/aws-aif/AWS%20Certified%20AI%20Practitioner%20Slides%20v10.pdf?_gl=1*1khaxia*_ga*MTAwODUyMTI5Mi4xNzM5NjM4MjU5*_ga_6GZZTGGX7H*MTczOTYzODI1OC4xLjAuMTczOTYzODI1OC42MC4wLjA. 
+ * [Deck](https://media.datacumulus.com/aws-aif/AWS%20Certified%20AI%20Practitioner%20Slides%20v10.pdf?_gl=1*1khaxia*_ga*MTAwODUyMTI5Mi4xNzM5NjM4MjU5*_ga_6GZZTGGX7H*MTczOTYzODI1OC4xLjAuMTczOTYzODI1OC42MC4wLjA.)
 
