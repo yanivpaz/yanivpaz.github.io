@@ -14,7 +14,7 @@ https://www.udemy.com/course/aws-ai-practitioner-certified/learn/lecture/4488637
 
 ## Sessions 
 https://github.com/aws/amazon-sagemaker-examples/blob/main/introduction_to_amazon_algorithms/jumpstart-foundation-models/text-generation-falcon.ipynb
-
+  
 
 ## AWS services
 * Amazon Transcribe is an AWS service that makes it easy for customers to convert speech-to-text. Amazon Polly is a service that turns text into lifelike speech.
@@ -51,6 +51,11 @@ https://github.com/aws/amazon-sagemaker-examples/blob/main/introduction_to_amazo
    * extract -  supervised  , unsupervised
    * AMT automatically chooses hyperparameter ranges, search strategy, maximum runtime of a tuning job, and early stop condition
    * Real time vs asynchronous vs  batch vs serverless ( only RAM selection ,OOB ASG , more latency)
+   * Data wrangler - Prepare tabular and image data for machine learning (sql support aand data quality tool)
+      * use for transform 
+   * ML features -Features are inputs to ML models used during training and used for inference
+   * 
+
   
  * [Deck](https://media.datacumulus.com/aws-aif/AWS%20Certified%20AI%20Practitioner%20Slides%20v10.pdf?_gl=1*1khaxia*_ga*MTAwODUyMTI5Mi4xNzM5NjM4MjU5*_ga_6GZZTGGX7H*MTczOTYzODI1OC4xLjAuMTczOTYzODI1OC42MC4wLjA.)
 
