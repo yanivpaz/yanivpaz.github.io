@@ -61,9 +61,19 @@ https://github.com/aws/amazon-sagemaker-examples/blob/main/introduction_to_amazo
        *  explain biases in your datasets and models (ie - more men than women)
     * SageMaker Ground truth - Reinforcement learning from human feedback
        * • Reinforcement learning where human feedback is included in the “reward” function
-    * SageMaker model registry 
+    * SageMaker model registry
+    * SageMaker pipelines - build train and deploy models (like CD) - process, train,tune, AutoML  , Model, ClarityCheck,QualityCheck
     * SageModel cards - Essential model information
-
+    * SageMaker canvas
+      * no coding
+      * ready to use models with integration to other AWS sercices 
+    * SageMaker
+       * Hub - browse , experiment  customize and deploy 
+       * Pre made solution - HL solution -browse ,  customize and deploy 
+    * MLFlows
+       * open source integrated with SageMaker
+       * part of SageMaker studio
+       * 
 
   
  * [Deck](https://media.datacumulus.com/aws-aif/AWS%20Certified%20AI%20Practitioner%20Slides%20v10.pdf?_gl=1*1khaxia*_ga*MTAwODUyMTI5Mi4xNzM5NjM4MjU5*_ga_6GZZTGGX7H*MTczOTYzODI1OC4xLjAuMTczOTYzODI1OC42MC4wLjA.)
