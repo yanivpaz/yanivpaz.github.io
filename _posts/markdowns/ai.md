@@ -53,6 +53,7 @@ https://github.com/aws/amazon-sagemaker-examples/blob/main/introduction_to_amazo
 
 * [Sagemaker](sagemaker.md)
 * [Responsible AI - service cards](https://aws.amazon.com/about-aws/whats-new/2023/11/aws-ai-service-cards/)
- 
- * [Deck](https://media.datacumulus.com/aws-aif/AWS%20Certified%20AI%20Practitioner%20Slides%20v10.pdf?_gl=1*1khaxia*_ga*MTAwODUyMTI5Mi4xNzM5NjM4MjU5*_ga_6GZZTGGX7H*MTczOTYzODI1OC4xLjAuMTczOTYzODI1OC42MC4wLjA.)
+
+ * [scope of test](https://d1.awsstatic.com/training-and-certification/docs-ai-practitioner/AWS-Certified-AI-Practitioner_Exam-Guide.pdf)
+ * [course deck](https://media.datacumulus.com/aws-aif/AWS%20Certified%20AI%20Practitioner%20Slides%20v10.pdf?_gl=1*1khaxia*_ga*MTAwODUyMTI5Mi4xNzM5NjM4MjU5*_ga_6GZZTGGX7H*MTczOTYzODI1OC4xLjAuMTczOTYzODI1OC42MC4wLjA.)
 
